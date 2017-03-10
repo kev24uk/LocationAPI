@@ -98,10 +98,10 @@ public class LocationDAO extends AbstractDAO<Location> {
             }
         }
         LOGGER.info(status.toString());
-        if (status && homeStatus == "Not Home") { //
+        if (status && homeStatus.equals("Not Home")) { //
             homeStatus = "Home";
             LightsManager.changeLights(Arrays.asList("Bedroom Main Light","Rear Living Room Lamp","Front Living Room Lamp","Kitchen Light"), true);
-        } else if (!status && homeStatus =="Home") {
+        } else if (!status && homeStatus.equals("Home")) {
             homeStatus = "Not Home";
             LightsManager.changeLights(Arrays.asList("All"),false);
         }
