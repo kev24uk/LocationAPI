@@ -1,0 +1,11 @@
+com\locationApi\StaticVars.class
+com\locationApi\api\Location.class
+com\gpsutils\Distance.class
+com\locationApi\resources\LocationResource.class
+com\locationApi\db\LocationDAO.class
+com\locationApi\LightsManager.class
+com\locationApi\LightsManager$1.class
+com\locationApi\LocationApiApplication.class
+com\locationApi\LocationApiConfiguration.class
+com\locationApi\health\TemplateHealthCheck.class
+com\locationApi\LocationApiApplication$1.class

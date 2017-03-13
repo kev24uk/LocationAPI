@@ -48,6 +48,13 @@
       </plugin>
     </plugins>
   </build>
+  <repositories>
+    <repository>
+      <id>project.local</id>
+      <name>project</name>
+      <url>file:${project.basedir}/repo</url>
+    </repository>
+  </repositories>
   <properties>
     <dropwizard.version>1.0.6</dropwizard.version>
   </properties>

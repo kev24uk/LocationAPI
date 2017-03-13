@@ -12,6 +12,6 @@ database:
 server:
   applicationConnectors:
   - type: http
-    port: 8090
+    port: 9876
 
 template: Hello, %s!
